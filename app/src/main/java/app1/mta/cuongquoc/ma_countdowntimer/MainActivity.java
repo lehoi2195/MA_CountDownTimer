@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
                         String s = txtvNoidung.getText().toString();
                         s = s + "Hello World... ";
                         txtvNoidung.setText(s);
-//                        String miliSecond = String.valueOf(millisUntilFinished);
-//                        Toast.makeText(MainActivity.this, miliSecond, Toast.LENGTH_SHORT).show();
+                        String miliSecond = String.valueOf(millisUntilFinished);
+                        Toast.makeText(MainActivity.this, miliSecond, Toast.LENGTH_SHORT).show();
                     }
 
                     @Override
